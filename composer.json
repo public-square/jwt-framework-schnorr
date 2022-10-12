@@ -3,21 +3,29 @@
     "description": "JSON Object Signing and Encryption library for PHP and Symfony Bundle.",
     "type": "symfony-bundle",
     "license": "MIT",
-    "keywords": ["JWS", "JWT", "JWE", "JWA", "JWK", "JWKSet", "Jot", "Jose", "RFC7515", "RFC7516", "RFC7517", "RFC7518", "RFC7519", "RFC7520", "Bundle", "Symfony"],
+    "keywords": ["JWS", "JWT", "JWE", "JWA", "JWK", "JWKSet", "Jot", "Jose", "RFC7515", "RFC7516", "RFC7517", "RFC7518", "RFC7519", "RFC7520", "Bundle", "Symfony", "Schnorr", "SS256K"],
     "homepage": "https://github.com/public-square/jwt-framework-schnorr",
     "authors": [
         {
             "name": "Florent Morselli",
             "homepage": "https://github.com/Spomky"
-        },{
+        },
+        {
             "name": "All contributors",
             "homepage": "https://github.com/web-token/jwt-framework/contributors"
+        },
+        {
+            "name": "Ology Newswire, Inc",
+            "email": "protocol@vpsqr.com",
+            "homepage": "https://vpsqr.com/",
+            "role": "Maintainer"
         }
     ],
     "autoload": {
         "psr-4": {
             "Jose\\":  "src/",
             "Jose\\Component\\Signature\\Algorithm\\": [
+                "src/SignatureAlgorithm/Schnorr",
                 "src/SignatureAlgorithm/ECDSA",
                 "src/SignatureAlgorithm/EdDSA",
                 "src/SignatureAlgorithm/HMAC",
@@ -63,6 +71,7 @@
         "psr/event-dispatcher": "^1.0",
         "psr/http-client": "^1.0",
         "psr/http-factory": "^1.0",
+        "public-square/phpecc": "^0.1.0",
         "spomky-labs/aes-key-wrap": "^7.0",
         "symfony/config": "^5.4|^6.0",
         "symfony/console": "^5.4|^6.0",

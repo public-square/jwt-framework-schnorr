@@ -1,35 +1,26 @@
 PHP JWT Framework
 =================
 
-![Build Status](https://github.com/web-token/jwt-framework/workflows/Integrate/badge.svg)
+[![Latest Stable Version](https://poser.pugx.org/public-square/jwt-framework-schnorr/v/stable.png)](https://packagist.org/packages/public-square/jwt-framework-schnorr)
+[![Total Downloads](https://poser.pugx.org/public-square/jwt-framework-schnorr/downloads.png)](https://packagist.org/packages/public-square/jwt-framework-schnorr)
+[![Latest Unstable Version](https://poser.pugx.org/public-square/jwt-framework-schnorr/v/unstable.png)](https://packagist.org/packages/public-square/jwt-framework-schnorr)
+[![License](https://poser.pugx.org/public-square/jwt-framework-schnorr/license.png)](https://packagist.org/packages/public-square/jwt-framework-schnorr)
 
-[![Latest Stable Version](https://poser.pugx.org/web-token/jwt-framework/v/stable.png)](https://packagist.org/packages/web-token/jwt-framework)
-[![Total Downloads](https://poser.pugx.org/web-token/jwt-framework/downloads.png)](https://packagist.org/packages/web-token/jwt-framework)
-[![Latest Unstable Version](https://poser.pugx.org/web-token/jwt-framework/v/unstable.png)](https://packagist.org/packages/web-token/jwt-framework)
-[![License](https://poser.pugx.org/web-token/jwt-framework/license.png)](https://packagist.org/packages/web-token/jwt-framework)
+### Information
+
+This library is a fork of Spomky Labs JWT Framework Library. All credit goes to them and previous contributors.
+This fork is a drop in replacement that contains support for Schnorr signing and verifying.
 
 # Documentation
 
 The official documentation is available as https://web-token.spomky-labs.com/
-
-# Support
-
-I bring solutions to your problems and answer your questions.
-
-If you really love that project, and the work I have done or if you want I prioritize your issues, then you can help me out for a couple of :beers: or more!
-
-[Become a sponsor](https://github.com/sponsors/Spomky)
-
-Or
-
-[![Become a Patreon](https://c5.patreon.com/external/logo/become_a_patron_button.png)](https://www.patreon.com/FlorentMorselli)
 
 # Contributing
 
 Requests for new features, bug fixed and all other ideas to make this library useful are welcome. [Please follow these best practices](doc/Contributing.md).
 
 If you discover a security vulnerability within the project, please **don't use the bug tracker and don't publish it publicly**.
-Instead, all security issues must be sent to security [at] spomky-labs.com.
+Instead, all security issues must be sent to protocol [at] vpsqr.com.
 
 # Licence
 
